@@ -1,17 +1,16 @@
 # SVGGenerator
+[English](./README_en.md) | 简体中文
 
-## Main works
-1. Trained a LoRa to adjust pictures with simple colors and lines when generating with stable diffusion ;
-2. remove background of the picture;
-3. convert png picture to svg.
+## 主要工作
+1. 训练了一个LoRa，在 Stable Diffusion 生成图片时，微调为简单颜色和线条的图片；
+2. 去除图片的背景；
+3. 将png图片转换为svg。
 
-## Current Problems
+## 当前的问题
+1. LoRa的训练数据集质量需要改进；
+2. 生成的图片的主题不够突出；
+3. 图片的关键词需要调整（训练数据集的标记质量欠缺）。
 
-1. quality of training dataset for LoRa need improvements;
-2. The main subject of the picture is not prominent enough;
-3. The keywords of the picture need to be adjusted.
-
-## libraries used
+## 使用的库
 - huggingface/diffusers
 - visioncortex/vtracer
-
